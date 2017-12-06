@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   libstaroffice-0.0.2.tar.xz: 7951544e36b4942ccaf330bc430078fd945667c9
+sources:
+  libstaroffice-0.0.5.tar.xz: 8001db81f9e3ccbfd39f57a0a84e7cdd48196b18
