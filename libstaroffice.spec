@@ -6,8 +6,8 @@
 Summary:	Library for importing and converting StarOffice files
 Name:		libstaroffice
 Epoch:		1
-Version:	0.0.6
-Release:	2
+Version:	0.0.7
+Release:	1
 Group:		Office
 License:	LGPLv2+
 Url:		https://github.com/fosnola/libstaroffice
@@ -52,10 +52,10 @@ Includes and definitions for developing with libstaroffice.
 CFLAGS="%{optflags} -Qunused-arguments" \
 CXXFLAGS="%{optflags} -Qunused-arguments" \
 %configure
-%make 
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files tools
 %doc ChangeLog README
