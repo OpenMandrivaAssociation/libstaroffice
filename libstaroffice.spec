@@ -7,7 +7,7 @@ Summary:	Library for importing and converting StarOffice files
 Name:		libstaroffice
 Epoch:		1
 Version:	0.0.7
-Release:	1
+Release:	2
 Group:		Office
 License:	LGPLv2+
 Url:		https://github.com/fosnola/libstaroffice
