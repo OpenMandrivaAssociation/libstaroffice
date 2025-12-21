@@ -13,6 +13,11 @@ License:	LGPLv2+
 Url:		https://github.com/fosnola/libstaroffice
 Source0:	https://github.com/fosnola/libstaroffice/releases/download/%{version}/%{name}-%{version}.tar.xz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	doxygen
 BuildRequires:	pkgconfig(librevenge-0.0)
 BuildRequires:	pkgconfig(libpng)
